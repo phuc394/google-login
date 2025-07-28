@@ -1,0 +1,87 @@
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+    
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.outline-login {
+    width:50%;
+    height:50%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left-outline-login {
+    padding: 2% 0 0 2%;
+    width: 50%;
+    height: 100%;
+}
+
+.right-outline-login {
+    padding: 2% 0 0 2%;
+    width: 50%;
+    height: 100%;
+}
+
+input {
+    padding-left: 3%;
+    margin: 20% 0 0 0;
+    border-radius: 6px;
+    width: 90%;
+    height: 10%;
+    border-color: gray;
+    margin-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.create {
+    background-color: white;
+    border: 0;
+    color:blue;
+}
+
+.next {
+    background-color: blue;
+    border-radius: 12px;
+    color: white;
+    width: 20%;
+    height: 30px;
+    margin-left: 10%;
+}
+
+.not-computer {
+    padding-right: 0.8%;
+    margin-top: 5%;
+}
+
+.button {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+}
+
+
+.forgot {
+    font-size: small;
+}
+
