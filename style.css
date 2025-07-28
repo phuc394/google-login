@@ -61,7 +61,7 @@ a {
 
 .next {
     background-color: blue;
-    border-radius: 12px;
+    border-radius: 20px;
     color: white;
     width: 20%;
     height: 30px;
@@ -70,7 +70,8 @@ a {
 
 .not-computer {
     padding-right: 0.8%;
-    margin-top: 5%;
+    margin-top: 10%;
+    font-size: small;
 }
 
 .button {
